@@ -4,7 +4,7 @@ export default function Main({ data }) {
       <img
         src={data.hdurl}
         alt={data.title || "image"}
-        className="w-full h-full object-cover object-center"
+        className="w-full h-full object-contain object-center"
       />
     </div>
   );
